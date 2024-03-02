@@ -28,6 +28,7 @@ const Test = () => {
 
   return (
     <>
+    
 
       <Form onSubmit={handleSubmit} className="m-3">
         <Form.Group controlId="formWeight" className="mb-3">
@@ -37,7 +38,7 @@ const Test = () => {
 
         <Form.Group controlId="formInterestRate" className="mb-3">
           <Form.Label>Making Rate</Form.Label>
-          <Form.Control type="text" placeholder="Enter interest rate" value={interestRate} onChange={e => setInterestRate(e.target.value)} className="mt-2 mb-3" />
+          <Form.Control type="text" placeholder="Enter Making rate" value={interestRate} onChange={e => setInterestRate(e.target.value)} className="mt-2 mb-3" />
         </Form.Group>
 
         <Form.Group controlId="formCurrentPrize" className="mb-3">
@@ -51,8 +52,13 @@ const Test = () => {
       </Form>
 
       G rate : {Gprize} || 
-      G & M rate : {GMprize} || 
-      G & M & T rate : {GMTprize}
+      GM rate : {GMprize} || 
+      GMT rate : {GMTprize}
+
+
+
+
+      
     </>
   );
 };
