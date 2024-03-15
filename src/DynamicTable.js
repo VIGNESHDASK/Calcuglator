@@ -20,7 +20,7 @@ const DynamicTable = () => {
 
   const handleInputChange = (event, rowIndex, columnIndex) => {
     const updatedRows = [...rows];
-    // Ensure numerical values (fix typo: `weightGram` instead of `weight`)
+    // Ensure numerical values (fix typo: `weightGram` instead of `weight`.)
     const parsedValue = parseFloat(event.target.value) || 0;
     
 

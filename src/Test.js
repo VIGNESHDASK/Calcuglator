@@ -47,7 +47,7 @@ const Test = () => {
         </Form.Group>
 
         <Button variant="primary" type="submit" className="mt-3">
-          Submit
+          Calculate
         </Button>
       </Form>
 
